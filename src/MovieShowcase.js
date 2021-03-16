@@ -21,3 +21,10 @@ export default class MovieShowcase extends Component {
     )
   }
 }
+//the main parent which is this one imports the data from 
+//data.js and in the Generate function, we call .map to iterate
+//over the data and return a new array and then we pass 
+//that data to the MovieCard, and set the title={movie.title}
+//and so on, we then render that data.
+
+//

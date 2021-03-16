@@ -9,3 +9,5 @@ export default class CardFront extends Component {
     )
   }
 }
+//this is just rendering one prop whcih is the image(poster) that was passeed
+//in by the parent component

@@ -48,5 +48,11 @@ MovieCard.defaultProps = {
   genres: ['No Genre(s) Found'],
   poster: 'default'
 }
-
+//each component has a render because each one is doing ONE job. 
+//and that job is in the render. AND props is just passing down
+//information to other components
+//this component is passing information down to the CardFront
+//which is the posterMap with data inside the hash
+//then it is passing information to the CardBack which is the 
+//title, rating, and genre, we also use this. because it is a class.
 

@@ -29,3 +29,8 @@ export default class CardBack extends Component {
     )
   }
 }
+//the generate function is just checking if the rating is not
+//empty and if it is then it will display 'rating not found'
+//otherwise it will display the rating 
+
+//the render is displaying the title, rating, and genre.
